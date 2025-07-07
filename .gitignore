@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Spark and Hadoop temp files
+.metastore_db/
+.derby.log
+*.crc
+*.eventlog
+
+# PySpark logs and checkpoints
+spark-warehouse/
+logs/
+checkpoints/
+spark-events/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode, PyCharm & IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment and config files
+.env
+.env.*
+*.zip  # e.g., Astra secure bundles
+
+# Credentials
+astradb/secure-connect-*.zip
+**/secure-connect-*.zip
+
+# Project-specific output
+*.log
+output/
+data/
+tmp/
+
+# PIP dependency resolver
+pip-log.txt
+
